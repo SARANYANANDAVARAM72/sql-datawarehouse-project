@@ -1,8 +1,13 @@
 # sql-datawarehouse-project
+
 Welcome to SQL Datawarehose Project 
+
 Building a modern data warehouse  with SQL Server , including ETL processes ,data modelling and analytics
+
 🏗️ SQL-Based Data Warehouse (Medallion Architecture)
+
 This project implements a full-scale Data Warehouse using the Medallion Architecture (Bronze, Silver, and Gold layers), built entirely with SQL — no external frameworks or tools.
+
 🧱 Architecture Overview
 
 🔹 Bronze Layer: Raw data ingestion from source systems (CSV files, mock APIs, etc.)
