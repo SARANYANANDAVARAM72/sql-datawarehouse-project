@@ -4,11 +4,17 @@ Building a modern data warehouse  with SQL Server , including ETL processes ,dat
 🏗️ SQL-Based Data Warehouse (Medallion Architecture)
 This project implements a full-scale Data Warehouse using the Medallion Architecture (Bronze, Silver, and Gold layers), built entirely with SQL — no external frameworks or tools.
 🧱 Architecture Overview
+
 🔹 Bronze Layer: Raw data ingestion from source systems (CSV files, mock APIs, etc.)
+
 🔸 Silver Layer: Cleaned and transformed data using SQL — deduplication, type casting, joins, and enrichment
+
 🟡 Gold Layer: Curated, business-ready datasets optimized for analytics, dashboards, and KPI reporting
+
 🛠️ Technologies Used
+
 SQL (PostgreSQL / MySQL / BigQuery / etc.)
+
 DDL/DML scripts for all layers
 
 Sample source datasets (CSV or SQL inserts)
